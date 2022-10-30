@@ -1,4 +1,4 @@
-#job4j_fast_foot
+# job4j_fast_foot
 
 Проект "Быстро и в точку".  
 

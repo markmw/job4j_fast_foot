@@ -9,4 +9,12 @@
     <artifactId>notification</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>ru.job4j</groupId>
+            <artifactId>domains</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
 </project>
