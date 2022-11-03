@@ -11,5 +11,5 @@ public interface DishService {
     Optional<Dish> findById(int id);
     Optional<Dish> findByName(String name);
     Optional<Dish> findByPrice(Double price);
-    List<Dish> findAll();
+    List<List<Dish>> findAll();
 }
