@@ -10,6 +10,6 @@ public interface DishService {
     void deleteDish(Dish dish);
     Optional<Dish> findById(int id);
     Optional<Dish> findByName(String name);
-    Optional<List<Dish>> findByPrice(Double price);
+    List<Dish> findByPrice(Double price);
     List<Dish> findAll();
 }
